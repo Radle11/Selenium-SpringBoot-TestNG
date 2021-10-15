@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default Suite]">
+  <test thread-count="5" name="Spring-Boot-Selenium-TestNG(failed)">
+    <classes>
+      <class name="springBootSelenium.test.FaceBookLogInPageTest">
+        <methods>
+          <include name="verifyFacebookLogInPage"/>
+          <include name="close"/>
+          <include name="springTestContextBeforeTestClass"/>
+          <include name="springTestContextBeforeTestMethod"/>
+          <include name="tearUp"/>
+          <include name="springTestContextPrepareTestInstance"/>
+          <include name="springTestContextAfterTestClass"/>
+          <include name="springTestContextAfterTestMethod"/>
+        </methods>
+      </class> <!-- springBootSelenium.test.FaceBookLogInPageTest -->
+    </classes>
+  </test> <!-- Spring-Boot-Selenium-TestNG(failed) -->
+</suite> <!-- Failed suite [Default Suite] -->
